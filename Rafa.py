@@ -126,7 +126,7 @@ else:
     pass
 os.system("rm -rf .f1")
 os.system("rm -rf .f2")
-update = requests.get("https://raw.githubusercontent.com/ON-FIRE-404/Approval/main/on.txt").text
+update = requests.get("https://raw.githubusercontent.com/ACTION-FIRE/Approval/main/on.txt").text
 uuidd = str(os.geteuid()) + str(os.getlogin()) + str(os.getuid())
 id = "".join(uuidd).replace("_","").replace("360","AHS").replace("u","9").replace("a","A")
 plat = platform.version()[14:][:21][::-1].upper()+platform.release()[5:][::-1].upper()+platform.version()[:8]
@@ -134,8 +134,8 @@ xp = plat.replace(' ', '').replace('-', '').replace('#', '').replace(':', '').re
 bxd = ""
 bumper = "FIRE=="+id+bxd+xp
 FIRE = "ACTION-FIRE"
-myweb2 = requests.get(f"https://raw.githubusercontent.com/ON-FIRE-404/Approval/main/on.txt").text
-os.system('xdg-open https://facebook.com/ft.alvi.18')
+myweb2 = requests.get(f"https://raw.githubusercontent.com/ACTION-FIRE/Approval/main/on.txt").text
+
 logo1 = ("""\x1b[1;94m═════════════════════════════════════════════════════╗
 \x1b[1;94m║                                                     ║
 \x1b[1;94m║  \x1b[1;92m██████  \x1b[1;33m███    ██       \x1b[1;91m███████ \x1b[1;94m██ \x1b[1;96m██████  \x1b[1;95m███████\x1b[1;94m ║
